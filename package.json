@@ -4,8 +4,11 @@
   "description": "a exercise for scss",
   "main": "index.js",
   "scripts": {
-   "sass": "sass --watch self/pages/_home.scss:self/css/style.css "
+    "sass": "sass --watch self/pages/_home.scss:self/css/style.css "
   },
   "author": "lykuan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "s": "^1.0.0"
+  }
 }
